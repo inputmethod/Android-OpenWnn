@@ -1,18 +1,47 @@
-# built application files
-*.apk
-*.ap_
+# http://www.kernel.org/pub/software/scm/git/docs/gitignore.html
+.*
+# ignore this file
+.gitignore
+# ignore all .svn folder.
+.svn/
 
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
+# ignore eclipse project file
+.classpath
+.project
+project.properties
 bin/
+
+# ignore idea project folder
+.idea/
+
+# ignore temp output folder
 gen/
-libs/
+out/
 obj/
 
-# Local configuration file (sdk path, etc)
+*.iml
+*.bin
+*.class
+
+.gradle
+build/
+
+.settings/
+xcdebugger/
+
+db_files
+
+org.eclipse.core.resources.prefs
+org.eclipse.jdt.core.prefs
+.factorypath
 local.properties
+gradle/
+gradlew
+gradlew.bat
+
+auto_builder/
+paperwork.json
+
+target/
+
+*.so
